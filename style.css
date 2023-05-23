@@ -1,0 +1,77 @@
+.bg-img{
+    background-image: url("img/bac.avif");
+    height: 100vh;
+    text-align: center;
+    color:white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+.bg-img ul li a{
+    text-align: center;
+    text-decoration: none;
+    color:white;
+} 
+.body-text{
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom:0;
+    padding: 20% 0 0 0;
+    position: absolute;
+    color: white;
+}
+.body-text .btn-success{
+    background-color: orangered;
+}
+.t1{
+    font-size: 2rem;
+}
+.body-text h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.heading{
+    text-align: center;
+    padding: 50px 0;
+}
+.head{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.service-icon i{
+    background-color: yellow;
+    padding: 20px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.footer{
+    height: 40px;
+    background-color: gray
+}
+.footer h6{
+    line-height: 40px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .head{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+    .body-text{
+        padding: 40% 0 0 0;
+    }
+    .t1{
+        font-size: 2rem;
+    }
+    .body-text h1{
+        font-size: 2.5rem;
+    }
+}

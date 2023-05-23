@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CODE VEDA</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-------- Script to work menu button close automatically----- -->
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
+
+
+
+
+
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+
+
+
+</head>
+<body>
+  <div class="bg-img">
+    <nav class="navbar navbar-expand-md  bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Code Veda</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item mx-3">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#team">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script>
+      $(document).ready(function(){
+        $(".nav-link").click(function(){
+          $(".navbar-collapse").removeClass("show");
+        });
+      });
+    </script>
+ 
+    
+    <div class="body-text">
+      <div class="t1">Welcome to <span style="font-weight:800; color: yellow;">CODE VEDA</span></div><br>
+      <p>A Training center to develop Technical & Inter-personal skills in Students and helps them to  crack a job in a reputated companies. </p>
+      <h1>Let's grow together</h1><br>
+      <h7>For More Information</h7>
+      <button type="button" class="btn btn-success" onclick="location.href='mailto:varun.mithyantha@gmail.com';">Contact</button>
+    </div>
+  </div>
+
+  <!--------------------------------------------------service-------------------------------------------------------------->
+
+  <div class="container" id="about">
+    <div class="heading">
+      <div class="head">About</div>
+    </div>
+    <div class="row justify-content-between text-center p-3 m-3">
+      <div class="col-md-4">
+        <div class="service-icon">
+          <i class="fa fa-graduation-cap" style="font-size:36px"></i>
+        </div>
+        <h3>E-Learning</h2>
+        <p> We provide, E-Learning platform to create an engaging and informative online course that helps learners achieve the desired learning outcomes. </p>
+      </div>
+      <div class="col-md-4">
+        <div class="service-icon">
+          <i class="fa fa-laptop" style="font-size:36px"></i>
+        </div>
+        <h3>Web Design</h2>
+        <p>We provide, Web designing using techniques such as fluid grids, flexible images, and CSS media queries to create a webpage that can respond to changes in the viewport width. </p>
+      </div>
+      <div class="col-md-4">
+        <div class="service-icon">
+          <i class='fa fa-camera' style='font-size:36px'></i>
+        </div>
+        <h3>Photography</h2>
+        <p>For us, photography is an art of observation. It’s about finding something interesting in an ordinary place… I’ve found it has little to do with the things you see and everything to do with the way you see them..</p>
+      </div>
+    </div>
+  </div>
+
+  <!---------------------------------------------------Portfolio------------------------------------------------------->
+  
+  <div class="container" id="service">
+    <div class="heading">
+      <div class="head">Services</div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/web.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/ph.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Photography</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/travel.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Travel</h5>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col">
+        <div class="card">
+          <img src="img/des.avif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Web Design</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/app.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Application Development</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/train.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Training</h5>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <br><br><br><br><br><br>
+
+  <!---------------------------------------------------------team-------------------------------------------------------------->
+
+  <section class="ourteam">
+    <div class="container" id="team">
+        <div class="heading">
+          <div class="head">Our Team</div>
+        </div>
+      </div>
+    <div class="container text-center">
+        <div class="row teamsetting">
+
+          <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+            <figure class="figure">
+                <img src="img/vm.jpg" class="figure-img img-fluid rounded-circle" >
+                <figcaption>
+                    <h4>Varun Mithyantha</h4>
+                    <button type="submit" class="btn btn-success" onclick="location.href='https://mvk24.github.io/Portfolio/';">More Info</button>
+                </figcaption>
+            </figure>
+        </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src="img/rak.jpg" class="figure-img img-fluid rounded-circle" >
+                    <figcaption>
+                        <h4>Rakesh GK</h4>
+                        <button type="submit" class="btn btn-success" onclick="location.href='https://rakesh-gk.github.io/portfolio/';">More Info</button>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+                <figure class="figure">
+                    <img src="img/sam1.jpg" class="figure-img img-fluid rounded-circle" >
+                    <figcaption>
+                        <h4>Sam Manasseh</h4>
+                        <button type="submit" class="btn btn-success" onclick="location.href='https://sam346646.github.io/Sam_portfolio/';">More Info</button>
+                    </figcaption>
+                </figure>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+ <!---------------------------------------------------------Footer-------------------------------------------------------------->
+
+ <footer class="footer bg-dark text-center">
+    <h6> Design & developed by MVK </h6>
+</footer>
+
+</body>
+</html>
